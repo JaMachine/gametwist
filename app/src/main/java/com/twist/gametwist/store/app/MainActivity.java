@@ -26,9 +26,11 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 
 import java.io.UnsupportedEncodingException;
 
+import static com.twist.gametwist.store.app.V.BroadcastStringForAction;
+
 public class MainActivity extends AppCompatActivity {
     boolean connected;
-    public static String BroadcastStringForAction = "checkinternet";
+
     private IntentFilter intentFilter;
     RelativeLayout internetStatus;
 

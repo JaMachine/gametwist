@@ -11,7 +11,8 @@ import android.os.SystemClock;
 
 import androidx.annotation.Nullable;
 
-import static com.twist.gametwist.store.app.MainActivity.BroadcastStringForAction;
+import static com.twist.gametwist.store.app.V.BroadcastStringForAction;
+
 
 public class ConnectionService  extends Service {
     @Nullable

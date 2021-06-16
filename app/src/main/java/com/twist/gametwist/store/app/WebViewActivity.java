@@ -32,9 +32,10 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import static com.twist.gametwist.store.app.MainActivity.BroadcastStringForAction;
+
 import static com.twist.gametwist.store.app.MainActivity.dc;
 import static com.twist.gametwist.store.app.MainActivity.main;
+import static com.twist.gametwist.store.app.V.BroadcastStringForAction;
 
 public class WebViewActivity extends AppCompatActivity {
     boolean connected;
